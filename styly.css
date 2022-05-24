@@ -1,0 +1,24 @@
+.grid-container{
+    /* DEclaramos que es una grilla */
+    display: grid;
+    /* definir laa filas y la cantidad  */
+    grid-template-rows: 150px 150px 150px;
+    /* definir las coloumnas y la cantidad  */
+    grid-template-columns: repeat(3,1fr);
+    /* Uuna nueva unidad de medida que nos permite distribuir los espacios de manera fracionada */
+    /* Podemos usar un funcion para repetir automanicamnete las medidas  */
+    border: 2px solid black;
+    gap: 10px;
+    
+
+    grid-area: ;
+
+}
+.grid-item{
+    border:  1px solid black;
+}
+.item-uno{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column: 1/3;
+}
